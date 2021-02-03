@@ -1,0 +1,73 @@
+body {
+  background-color:rgb(199, 230, 235) ;
+  height: 100vh;
+}
+
+.logo {
+  display : block ;
+  margin: auto ;
+  width : 63px ;
+  height : 59px ;
+}
+h1{
+  text-align: center; ;
+  margin-top: 10px;
+  font-size: 27px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* designing the container */
+.container{
+  background-color: rgb(142, 166, 168);
+  margin: auto;
+  max-width: 982px;
+  height: 73vh;
+  margin: auto;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border-radius: 13px;
+}
+
+/* message box design */
+.message{
+  background-color: rgb(17, 53, 17);
+  max-width: 33%;
+  padding: 18px;
+  margin: 21px 19px;
+  border-radius: 9px;
+  color: white;
+  font-weight: lighter;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.left{
+  float: left;/*for left side*/
+  clear: both; /*means it will clear the line */
+}
+.right{
+  float: right;/*for right side*/
+  clear: both;
+}
+/* send button and text input box design */
+#send-container{
+  text-align: center; 
+  display: block;
+  margin: auto;
+  max-width: 988px;
+  width: 100%;
+}
+#messageInp{
+  width: 80%;
+  height: 32px;
+  border-radius: 10px;
+  margin-top: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+  cursor: pointer
+  border-radius: 6px ;
+  height: 33px;
+  background-color: grey ;
+  color: white ;
+
+}
+
